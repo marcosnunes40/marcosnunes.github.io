@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="Portfólio de Marcos Eliabe de Almeida Nunes">
+<title>Marcos Eliabe | Portfólio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <nav class="nav">
+    <a class="logo" href="#inicio">marcos@portfolio:~$</a>
+    <div class="right">
+      <div class="links" id="links">
+        <a href="#sobre" data-i18n="nav_about">sobre</a>
+        <a href="#skills" data-i18n="nav_skills">habilidades</a>
+        <a href="#formacao" data-i18n="nav_edu">formação</a>
+        <a href="#projetos" data-i18n="nav_proj">projetos</a>
+        <a href="#contato" data-i18n="nav_contact">contato</a>
+      </div>
+      <div class="lang">
+        <button data-lang="pt" class="on">PT</button><button data-lang="en">EN</button><button data-lang="es">ES</button>
+      </div>
+      <button class="menu" id="menu" aria-label="Menu">☰</button>
+    </div>
+  </nav>
+</header>
+
+<main>
+<section id="inicio" class="hero">
+  <div class="win">
+    <div class="bar"><i></i><i></i><i></i><small>marcos@portfolio: ~</small></div>
+    <div class="body">
+      <p><span class="u">marcos@portfolio</span>:<span class="p">~</span>$ whoami</p>
+      <h1>Marcos Eliabe <span>de Almeida Nunes</span></h1>
+      <p class="out" data-i18n="role">Estudante de ADS · Front-End · Cibersegurança</p>
+      <p><span class="u">marcos@portfolio</span>:<span class="p">~</span>$ cat objetivo.txt</p>
+      <p class="out" data-i18n="lead">Construindo minha base em tecnologia, um comando de cada vez.</p>
+      <p><span class="u">marcos@portfolio</span>:<span class="p">~</span>$ <span class="cursor"></span></p>
+      <div class="actions">
+        <a class="btn" href="#sobre" data-i18n="cta1">./conheca-meu-perfil</a>
+        <a class="btn ghost" href="#contato" data-i18n="cta2">./contato</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sobre" class="section">
+  <h2><span>$</span> <span data-i18n="h_about">cat sobre.md</span></h2>
+  <div class="about">
+    <div>
+      <p data-i18n="about1">Sou Marcos Eliabe, apaixonado por tecnologia. Curso Análise e Desenvolvimento de Sistemas (ADS) no Senac.</p>
+      <p data-i18n="about2">Demorei a ter a oportunidade de estudar formalmente e agora estou construindo uma base sólida, aprendendo todos os dias.</p>
+      <p data-i18n="about3">Tenho interesse em Front-End, redes e cibersegurança. Busco minha primeira oportunidade na área.</p>
+    </div>
+    <div class="win small">
+      <div class="bar"><i></i><i></i><i></i><small>profile.json</small></div>
+      <pre class="body">{
+  <b>"curso"</b>: "ADS - Senac",
+  <b>"redes"</b>: "Cisco",
+  <b>"foco"</b>: ["Front-End", "Cyber"],
+  <b>"status"</b>: "aprendendo"
+}</pre>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section">
+  <h2><span>$</span> <span data-i18n="h_skills">ls habilidades/</span></h2>
+  <p class="intro" data-i18n="skills_intro">Tecnologias e conceitos que estou estudando.</p>
+  <div class="grid">
+    <article><h3>HTML5</h3><p data-i18n="s_html">Estrutura de páginas e semântica.</p></article>
+    <article><h3>CSS3</h3><p data-i18n="s_css">Estilização, layouts e responsividade.</p></article>
+    <article><h3>Python</h3><p data-i18n="s_py">Lógica e fundamentos de programação.</p></article>
+    <article><h3>Java</h3><p data-i18n="s_java">Primeiros passos em programação orientada a objetos.</p></article>
+    <article><h3>Redes</h3><p data-i18n="s_net">Conceitos básicos de redes com Cisco Packet Tracer.</p></article>
+    <article><h3>Cyber Security</h3><p data-i18n="s_sec">Fundamentos de cibersegurança.</p></article>
+  </div>
+</section>
+
+<section id="formacao" class="section">
+  <h2><span>$</span> <span data-i18n="h_edu">history | grep formação</span></h2>
+  <div class="timeline">
+    <article><small data-i18n="t_now">EM ANDAMENTO</small><h3 data-i18n="e1">Análise e Desenvolvimento de Sistemas</h3><p>Senac</p></article>
+    <article><small data-i18n="t_cert">CERTIFICAÇÃO</small><h3>Cisco</h3><p data-i18n="e2">Conceitos básicos de redes, com Cisco Packet Tracer.</p></article>
+    <article><small>SENAI · 2021</small><h3 data-i18n="e3">Programador Back-End</h3><p data-i18n="e3d">Formação introdutória em desenvolvimento back-end.</p></article>
+    <article><small data-i18n="t_done">CONCLUÍDO</small><h3 data-i18n="e4">Ensino Médio</h3><p>Escola Estadual Brasileiro Pedro Silvestre</p></article>
+  </div>
+</section>
+
+<section id="projetos" class="section">
+  <h2><span>$</span> <span data-i18n="h_proj">ls projetos/</span></h2>
+  <div class="win small"><div class="body">
+    <p class="out" data-i18n="proj1">Nenhum projeto publicado ainda. Em breve!</p>
+    <p><span class="u">marcos@portfolio</span>:<span class="p">~</span>$ git commit -m "primeiros projetos em breve"</p>
+  </div></div>
+</section>
+
+<section id="contato" class="section">
+  <h2><span>$</span> <span data-i18n="h_contact">echo contato</span></h2>
+  <p data-i18n="contact_txt">Aberto a oportunidades para aprender e entrar no mercado de tecnologia.</p>
+  <a class="btn" href="mailto:marcoseliabe16@gmail.com">marcoseliabe16@gmail.com ↗</a>
+</section>
+</main>
+
+<footer><span>© Marcos Eliabe</span> <small data-i18n="foot">Feito com HTML, CSS e JavaScript.</small></footer>
+<script src="script.js"></script>
+</body>
+</html>
